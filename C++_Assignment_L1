@@ -1,0 +1,52 @@
+//Questionm1
+#include <iostream>
+using namespace std;
+
+int main() {
+    std::cout << "Physics" << std::endl;
+    std::cout << "Wallah" << std::endl;
+
+    return 0;
+}
+/Question2
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num1 = 5;  // Choose a positive number less than 6
+    int num2 = 5;  // Choose another positive number less than 6
+
+    // Ensure the sum of num1 and num2 is 10
+    if (num1 + num2 == 10) {
+        cout << "The sum of " << num1 << " and " << num2 << " is: " << num1 + num2 << endl;
+    } else {
+        cout << "The selected numbers do not add up to 10." << endl;
+    }
+
+    return 0;
+}
+Question3
+  int: Typically 4 bytes on most systems.
+bool: Typically 1 byte.
+float: Typically 4 bytes.
+Question 4
+6 4
+Question 5
+#include <iostream>
+#include <cmath> // Include the cmath header for the constant pi
+
+int main() {
+    const double pi = 3.141592653589793; // Define the constant pi
+    double radius = 10.0; // Radius of the circle
+
+    // Calculate the circumference using the formula: C = 2 * pi * radius
+    double circumference = 2 * pi * radius;
+
+    // Output the result
+    std::cout << "The circumference of the circle with radius " << radius << " is: " << circumference << std::endl;
+
+    return 0;
+}
+Question 6
+3
